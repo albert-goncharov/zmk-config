@@ -79,7 +79,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-  &kp W  &kp G  &kp D  &kp F  &kp B  &kp Q  &kp L  &kp U  &kp O  &kp Y      &hm_l LEFT_META R  &hm_l LEFT_ALT S  &hm_l LCTRL T  &hm_l LSHFT H  &kp K  &kp J  &hm_r RSHFT N  &hm_r LCTRL E  &hm_r LEFT_ALT A  &hm_r LGUI I      &kp X  &kp C  &kp M  &kp P  &kp V  &kp Z  &kp COMMA  &kp DOT  &kp APOS  &kp FSLH    &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB  &lt 5 ENTER  &lt 4 DELETE  &lt 6 DELETE
+  &kp W  &kp G  &kp D  &kp F  &kp B  &kp Q  &kp L  &kp U  &kp O  &kp Y      &hm_l LEFT_META R  &hm_l LEFT_ALT S  &hm_l LCTRL T  &hm_l LSHFT H  &kp K  &kp J  &hm_r RSHFT N  &hm_r LCTRL E  &hm_r LEFT_ALT A  &hm_r LGUI I      &kp X  &kp C  &kp M  &kp P  &kp V  &kp Z  &kp COMMA  &kp DOT  &kp APOS  &kp FSLH    &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB  &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DELETE
             >;
         };
 
