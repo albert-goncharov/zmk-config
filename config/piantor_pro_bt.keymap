@@ -79,6 +79,13 @@
             hold-trigger-on-release;
             hold-while-undecided;
         };
+
+        ru_caps_word: ru_caps_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "RU_CAPS_WORD";
+            #binding-cells = <0>;
+            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z LEFT_BRACKET RIGHT_BRACKET EQUAL BACKSLASH GRAVE>;
+        };
     };
 
     keymap {
@@ -101,7 +108,7 @@
         nav {
             display-name = "Navigation";
             bindings = <
-  &trans  &trans  &kp K_BACK  &kp K_FORWARD  &trans  &trans  &kp LS(INS)  &kp LC(INS)  &kp LS(DELETE)  &trans      &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &caps_word  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans  &trans  &trans  &trans  &trans  &kp INS  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &kp K_BACK  &kp K_FORWARD  &trans  &trans  &kp LS(INS)  &kp LC(INS)  &kp LS(DELETE)  &trans      &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &ru_caps_word  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans  &trans  &trans  &trans  &trans  &kp INS  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
