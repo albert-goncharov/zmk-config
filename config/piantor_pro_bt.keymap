@@ -131,7 +131,7 @@
 
         symbols {
             bindings = <
-  &kp LEFT_BRACE  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans  &trans      &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS  &trans  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI      &kp TILDE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp PIPE  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &trans  &trans  &trans
+  &kp LEFT_BRACE  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &to 9  &trans  &trans  &trans  &trans      &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS  &trans  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI      &kp TILDE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp PIPE  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &trans  &trans  &trans
             >;
 
             label = "Symbols";
