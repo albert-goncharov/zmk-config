@@ -162,10 +162,18 @@
 
         Gaming {
             bindings = <
-  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &trans  &trans  &trans  &trans  &trans      &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &trans  &trans  &trans  &trans  &trans    &kp ESCAPE  &kp SPACE  &kp LEFT_SHIFT  &to 0  &to 0  &to 0
+  &kp LEFT_ALT  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O      &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L      &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp DOT  &kp P    &kp TAB  &kp SPACE  &mo 10  &to 0  &to 0  &to 0
             >;
 
             label = "Gaming";
+        };
+
+        Gaming2 {
+            bindings = <
+  &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "Gaming2";
         };
     };
 
